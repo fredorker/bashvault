@@ -2,7 +2,6 @@
 
 export VAULT_TOKEN=$1
 export VAULT_ADDR=$2
-print "file ${3} and secret path ${4}"
 
 NL=$'\n'
 while read -r line; do
